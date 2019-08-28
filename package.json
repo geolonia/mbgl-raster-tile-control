@@ -1,8 +1,10 @@
 {
-  "name": "@kamataryo/mbgl-raster-tile-control",
-  "description": "Japanese weather symbol control for mapboxgl-js.",
+  "name": "@geolonia/mbgl-raster-tile-control",
+  "description": "Mapboxgl-js control or geolonia embed API plugin to overlay raster tiles.",
   "version": "0.0.1",
-  "dependencies": {},
+  "dependencies": {
+    "@geolonia/mbgl-fork-me-control": "^0.2.7"
+  },
   "scripts": {
     "build": "webpack -p"
   },

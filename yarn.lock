@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@geolonia/mbgl-fork-me-control@^0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@geolonia/mbgl-fork-me-control/-/mbgl-fork-me-control-0.2.7.tgz#e249b9b41aa2e7b9a7bf27395a6ad1ff64271e98"
+  integrity sha512-OLTETX8+7mZpelGg75ope/lULnRMJB6VLB5aejv1mqQzDLPd3AJsfd/t+HZhOuqq8uP6dRI55Aki27pIyzBblw==
+
 "@types/geojson@*":
   version "7946.0.7"
   resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-7946.0.7.tgz#c8fa532b60a0042219cdf173ca21a975ef0666ad"
