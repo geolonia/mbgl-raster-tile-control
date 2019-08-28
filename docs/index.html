@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Geolonia/mbgl-raster-tile-control</title>
+    <style>
+      html,
+      body,
+      .geolonia {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="geolonia"
+      data-zoom="14.54"
+      data-lat="34.68493"
+      data-lng="135.18086"
+      data-url="https://mapwarper.h-gis.jp/maps/tile/3866/{z}/{x}/{y}.png"
+    >
+      <h2>兵庫県御免許開港神戸之図</h2>
+      <p>1868年出版</p>
+    </div>
+    <script src="https://api.geolonia.com/v1/embed?geolonia-api-key=YOUR-API-KEY"></script>
+    <script src="./geolonia-raster-tile-plugin.js"></script>
+  </body>
+</html>

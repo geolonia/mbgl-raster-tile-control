@@ -1,0 +1,16 @@
+{
+  "name": "@kamataryo/mbgl-raster-tile-control",
+  "description": "Japanese weather symbol control for mapboxgl-js.",
+  "version": "0.0.1",
+  "dependencies": {},
+  "scripts": {
+    "build": "webpack -p"
+  },
+  "devDependencies": {
+    "@types/mapbox-gl": "^0.54.1",
+    "ts-loader": "^6.0.4",
+    "typescript": "3.5.3",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  }
+}
