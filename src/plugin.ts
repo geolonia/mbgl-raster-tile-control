@@ -6,7 +6,8 @@ const { registerPlugin } = window.geolonia || window.tilecloud || {}
 
 registerPlugin &&
   registerPlugin((map: mapboxgl.Map, target: HTMLElement) => {
-    const { url = '#' } = target.dataset || {}
+    const { url = '#', opacity = '1' } = target.dataset || {}
+
     // @ts-ignore
-    map.addControl(new RasterTileControl(url))
+    map.addControl(new RasterTileControl(url, parseFloat(opacity || '1.0')))
   })
