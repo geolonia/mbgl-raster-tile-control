@@ -5,7 +5,7 @@
 ```html
 <body>
   <div class="geolonia" data-url="https://example.com/{z}/{y}/{x}.png"></div>
-  <script src="https://api.geolonia.com/v1/embed?geolonia-api-key=YOUR-API-KEY"></script>
+  <script src="https://cdn.geolonia.com/v1/embed?geolonia-api-key=YOUR-API-KEY"></script>
 </body>
 ```
 
