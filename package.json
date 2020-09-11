@@ -6,13 +6,14 @@
     "@geolonia/mbgl-fork-me-control": "^0.2.7"
   },
   "scripts": {
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "test": "npm run build"
   },
   "devDependencies": {
-    "@types/mapbox-gl": "^0.54.1",
-    "ts-loader": "^6.0.4",
-    "typescript": "3.5.3",
-    "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.7"
+    "@types/mapbox-gl": "^1.11.2",
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   }
 }
